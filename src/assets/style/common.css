@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.playcount {
+  position: absolute;
+  width: 100px;
+  top: 10px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.time {
+  position: absolute;
+  width: 100px;
+  top: 80px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.play_btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.list_name {
+  display: block;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
